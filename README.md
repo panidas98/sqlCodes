@@ -50,7 +50,3 @@ El procedimiento retorna una tabla con las siguientes columnas:
 
 - SQL Server 2008 R2 o superior
 - Permisos de lectura sobre los catálogos del sistema
-
-## Contribución
-
-Siéntete libre de contribuir a este proyecto creando issues o enviando pull requests con mejoras.
