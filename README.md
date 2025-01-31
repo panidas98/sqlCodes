@@ -25,13 +25,13 @@ El script crea un procedimiento almacenado `sp_FindColumn` que permite buscar cu
 
 ```sql
 -- Ejemplo 1: Buscar todas las columnas que contengan "ID"
-EXEC sp_FindColumn 'ID'
+EXEC dbo.buscarColumnas 'ID'
 
 -- Ejemplo 2: Buscar todas las columnas relacionadas con "fecha"
-EXEC sp_FindColumn 'fecha'
+EXEC dbo.buscarColumnas 'fecha'
 
--- Ejemplo 3: Buscar columnas específicas como "customer"
-EXEC sp_FindColumn 'customer'
+-- Ejemplo 3: Buscar columnas específicas como "customer" en la tabla "cliente"
+EXEC dbo.buscarColumnas 'customer','cliente'
 ```
 
 ## Resultados
