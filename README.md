@@ -30,9 +30,10 @@ EXEC dbo.buscarColumnas 'ID'
 -- Ejemplo 2: Buscar todas las columnas relacionadas con "fecha"
 EXEC dbo.buscarColumnas 'fecha'
 
--- Ejemplo 3: Buscar columnas específicas como "customer" en la tabla "cliente"
-EXEC dbo.buscarColumnas 'customer','cliente'
+-- Ejemplo 3: Buscar columnas específicas como "un" en la tabla "351"
+EXEC dbo.buscarColumnas 'un','351'
 ```
+![image](https://github.com/user-attachments/assets/b7c0da18-ce38-4b96-8933-818c060ecb7a)
 
 ## Resultados
 
